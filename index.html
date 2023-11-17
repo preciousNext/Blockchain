@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="explorer-container">
+      <h1>Blockchain Explorer</h1>
+      <form id="search-form">
+        <label for="search-input">Enter Transaction ID or Address:</label>
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Transaction ID or Address"
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
+      <div id="result-container">
+        <!-- Transaction details will be dynamically added here -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
